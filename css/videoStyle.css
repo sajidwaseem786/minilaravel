@@ -1,0 +1,544 @@
+li{
+  font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    /*margin-bottom: 1.25rem;*/
+    text-rendering: optimizeLegibility;
+}
+
+
+#ChatBiLarge {
+
+        position: fixed;
+   top: 35%;
+    z-index: 999;
+   right: 0;
+  }
+
+
+  .button.default-action, button.default-action {
+    background-color: #0052a7!important;
+
+    color: white;
+   
+}
+
+
+tr.nohover {
+    background: none !important;
+}
+
+
+
+.button.default-action:focus, .button.default-action:hover, button.default-action:focus, button.default-action:hover {
+    background-color: #0062cc !important;
+    color: white;
+}
+
+
+
+.bg-img-menu-modal {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo_tutoriales_3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+
+    font-family: 'Open Sans', sans-serif !important;
+    transform: translate3d(0,0,0);
+}
+
+
+
+.bg-img-menu {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo_tutoriales_3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    transform: translate3d(0,0,0);
+}
+
+.bg-img-tut {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo_tutoriales_3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: -2;
+    font-family: 'Open Sans', sans-serif !important;
+    transform: translate3d(0,0,0);
+}
+
+
+
+.top-bar {
+    background: #fff;
+    overflow: visible;
+    height: 120px;
+    
+}
+
+
+.tutorial {
+  border-bottom: solid 1px grey;
+    
+}
+
+.top-bar .name {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 5em;
+    height: auto;
+}
+
+.name img {
+  margin-top: 10px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.tutobox {
+  background: white;
+  color: #0055a5 !important;
+  width: 100%;
+  text-align: center;
+  padding: 1.2em;
+  font-size: 30px;
+  font-weight: 500;
+  height: 270px;
+  border-radius: 30px;
+  line-height: 1;
+  padding-bottom: 1em;
+
+margin-top: 60px;
+  vertical-align: middle;
+}
+
+
+
+.tutobox h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0055a5;
+}
+
+
+a.tutobutton {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1.0625rem 2rem;
+    font-size: 1.2rem;
+    background-color: 0f6ab8;
+    border-color: #0055a5;
+    border: solid 1.3px #0055a5 !important;
+    color: #0055a5;
+    transition: background-color 300ms ease-out;
+    border-radius: 100px!important;
+    line-height: 50px!important;
+    padding: 0 30px!important;
+    transition: 0.25s all ease-in-out;
+    background-color: white!important;
+    border-width: 0;
+    width: 100%;
+}
+
+a.tutobutton:hover {
+    background-color: #0f6ab8;
+    border-color: #0094db;
+    color: #ffffff;
+    transition: background-color 300ms ease-out;   
+    transition: 0.25s all ease-in-out;
+    background-color: #0052a7!important;
+}
+
+.btnregresar{
+text-decoration: none;
+}
+
+a.btnregresar h4:hover {
+  color: #0F55A5;
+
+}
+
+.iconospecialspacio{
+
+  margin-right: 3px;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    float: left;
+    max-width: 100%;
+    margin-top: 1px;
+    object-fit: cover;
+         border: solid 1px #dadada;
+}
+
+
+
+
+.logged h1 {
+    font-size: 2.0875rem;
+    color: #0055a5;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+
+.logged h3 {
+  color: #8d8d8d;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
+.division {
+  width: 100%;
+  border-bottom: solid 1px grey;
+  margin-bottom: 10px;
+}
+
+/*icono home */
+
+
+i.icon.icon-guatefacturas-home.iconohome {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -5px;
+}
+
+
+i.icon.icon-guatefacturas-regresar.iconoregresar {
+  
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -5px;
+}
+
+
+.marginflex{
+
+ display: flex; 
+ list-style-type:none;
+}
+
+
+
+/*fin icono home */
+
+
+
+
+.logged h4 {
+    color: #8d8d8d;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.videos a {
+    text-decoration: none!important;
+}
+
+
+
+@media only screen and (min-width: 64.0625em) {
+.top-bar-section ul {
+    margin-top: 40px;
+    margin-right: 5em;
+
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+  text-decoration: underline;
+  background: none !important;
+  color: #0F55A5 !important;
+  text-decoration: none;
+  }
+
+
+
+  .top-bar-section ul li {
+    background: none !important;
+}
+
+.tutotabs {
+  margin-top: 40px;
+}
+
+}
+
+
+@media only screen and (max-width: 64em) and (min-width: 40.0625em) {
+html {
+    background-color: white;
+}
+
+.top-bar {
+    background: #fff;
+    overflow: visible;
+    height: auto;
+}
+
+.top-bar .name {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 0;
+    height: auto;
+}
+
+.top-bar.expanded .title-area {
+    background: white;
+    display: block;
+}
+
+.top-bar-section ul {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+    border-bottom: solid 1px grey;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+  text-decoration: underline;
+  background: none !important;
+  color: grey !important;
+  }
+
+  .top-bar-section ul li {
+    background: white !important;
+}
+
+.tutotabs {
+  margin-top: 40px;
+}
+}
+
+
+@media only screen and (max-width: 640px) {
+html {
+    background-color: white;
+}
+
+.top-bar {
+    background: #fff;
+    overflow: visible;
+    height: auto;
+}
+
+.top-bar .name {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 0;
+    height: auto;
+}
+
+.top-bar.expanded .title-area {
+    background: white;
+    display: block;
+}
+
+.top-bar-section ul {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+    border-bottom: solid 1px grey;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+  text-decoration: underline;
+  background: none !important;
+  color: grey !important;
+  }
+
+  .top-bar-section ul li {
+    background: white !important;
+}
+
+.tutotabs {
+  margin-top: 40px;
+}
+
+}
+
+
+/* ESTILO TABLA */
+
+table {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  margin-top: 25px;
+  background: transparent;
+  border: 2px solid white;
+}
+
+table tbody tr td, table tr td {
+    line-height: 1.7rem;
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: transparent;
+}
+
+table tr td {
+    color: white;
+}
+
+td {
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.sinborderleft {
+  border-left: 0px solid;
+}
+
+.sinborderbottom {
+  border-bottom: 0px solid;
+}
+
+table tr:hover {
+   background-color: #0052a7;
+  transition: 0.5s;
+  color: white;
+}
+
+
+
+tr a {
+  color: white;
+  text-decoration: none;
+}
+
+.tabla {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.icon-icono-guatefactura {
+  font-size: 30px;
+  vertical-align: text-top;
+}
+
+.size {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.iconvideotutoriales{
+  font-size: 30px;
+    vertical-align: text-top;
+}
+
+.title-video{
+margin-top: 50px !important;
+}
+
+.btnevaluacion{
+margin-top: 15px !important;
+}
+
+.styleevalua{
+display: flex;
+color: black;
+text-decoration: none;
+
+}
+.styleevalua:hover{
+background-color: transparent;
+color: #0F55A5;
+}
+
+.styleevalua i{
+text-decoration: none;
+}
+
+.div-evalua{
+display: flex;
+justify-content: flex-end;
+}

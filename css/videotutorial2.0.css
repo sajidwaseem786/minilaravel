@@ -1,0 +1,192 @@
+.bg-img-menu {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo_tutoriales_4.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    transform: translate3d(0,0,0);
+
+}
+
+.logged h1 {
+  font-size: 1.375rem;
+  color: #0055a5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a.tutobutton {
+  top: 22px;
+  width: 65%;
+  margin-bottom: 30px !important;
+}
+
+.tabs dd.active a, .tabs .tab-title.active a {
+  background-color: transparent;
+  color: white;
+  /* border: solid 2px white; */
+  /* border-radius: 223px !important; */
+  border-bottom: solid 2px white;
+  border-radius: none;
+}
+
+.tabs dd > a, .tabs .tab-title > a:hover{
+}
+
+.videotutoriales2 h1 {
+  font-size: 33px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.videotutoriales2 h2 {
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.videotutoriales2 h3 {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 36px;
+ 
+}
+
+.titulos {
+  margin-top: 35px;
+}
+.videotutoriales2 strong {
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: #fff !important;
+}
+
+.videotutoriales2 a.default-action2  {
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1.3rem;
+}
+
+.video-borde {
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.video-borde:hover {
+  background-color: rgba(14, 83, 166, 0.7);
+  transition: 0.5s;
+}
+
+.titulos {
+  margin-bottom: 3rem;
+}
+
+
+.listado-tutoriales li {
+  margin-bottom: 0px;
+}
+
+.videotutoriales2 td {
+    border-left: 0px solid white;
+    font-weight: bold;
+
+}
+
+.videotutoriales2 i {
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.titulos-td td {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+table tr:hover {
+    background-color: transparent;
+}
+
+.videotutoriales2 a:hover {
+  transition: 0.5s;
+}
+
+.descripcion-td td {
+  font-weight: normal;
+}
+
+td.titulo-left {
+  text-align: left;
+}
+
+.top-bar-section li {
+  margin-bottom: 0px;
+  height: 3rem;
+}
+
+.icon-guatefacturas-home:before {
+    content: "\62";
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.logged h4 {
+    color: #8d8d8d;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.logged h4:hover {
+  color: #0F55A5;
+  transition: 0.5s;
+}
+
+.videos a {
+  text-decoration: none;
+}
+
+.icon-guatefacturas-regresar:before {
+    content: "\64";
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background-color: #fff;
+    color: grey;
+    background: white;
+}
+
+@media (max-width:  364px){
+  .titulos-td td {
+    font-size: 14px;
+  }
+  table tr th, table tr td {
+    font-size: 12px;
+  }
+  .videotutoriales2 i {
+    font-size: 20px;
+  }
+}

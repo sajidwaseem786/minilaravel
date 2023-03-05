@@ -1,0 +1,86 @@
+.button.default-action:focus, .button.default-action:hover, button.default-action:focus, button.default-action:hover {
+    background-color: white !important;
+    color: #0052a7;
+}
+
+
+.bg-img3 {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/fondo_tutoriales_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    transform: translate3d(0,0,0);
+}
+
+
+#Usuario {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline:none;
+    box-shadow:none;
+}
+
+
+#Password {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline:none;
+    box-shadow:none;
+}
+
+
+
+@media screen and (max-width: 63.9375em) and (min-width: 40em){
+.div_main {
+    max-width: 400px;
+    height: calc(50% - 1.875rem);
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+.bg-img3 {
+z-index: 0;
+  }
+}
+.div_main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 340px;
+    border-radius: 5px;
+    height: auto;
+    background-color: rgba(19, 178, 255, 0.85);
+}
+
+
+.button.default-action, button.default-action{
+
+
+    background-color: transparent !important; 
+    border-color: white;
+    color: white;
+    -webkit-box-shadow: 0 0 0 1px #13b2ff inset;
+    box-shadow: 0 0 0 1px white inset;
+}
+
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], select, textarea {
+
+color: white !important;
+}
